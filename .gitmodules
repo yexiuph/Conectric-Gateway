@@ -1,0 +1,3 @@
+[submodule "Conectric-Rust-SDK"]
+	path = Conectric-Rust-SDK
+	url = https://github.com/yexiuph/Conectric-Rust-SDK.git
