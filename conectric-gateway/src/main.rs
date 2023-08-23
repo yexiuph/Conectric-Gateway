@@ -1,10 +1,6 @@
-use conectric_sdk::{
-    serial::{
-        start_gateway
-    }
-};
+use conectric_sdk::serial::ConectricSerial;
 
 fn main() {
     println!("Conectric Gateway : RUST Edition");
-    start_gateway();
+    ConectricSerial::start_gateway();
 }
