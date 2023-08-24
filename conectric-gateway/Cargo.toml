@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 conectric-sdk = { path= "../conectric-sdk"}
+tokio = { version = "*", features = ['full'] }
