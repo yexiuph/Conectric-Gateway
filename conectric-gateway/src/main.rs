@@ -1,9 +1,9 @@
 use conectric_sdk::serial::ConectricSerial;
 
 fn main() {
-    println!("Conectric Gateway : RUST Edition");
+    println!("Edge Main | Serial Microservice");
 
-    let mut conectric_serial = ConectricSerial::new();
+    let mut conectric_serial = ConectricSerial::new(Some("Test".to_string()).into());
     conectric_serial.start_gateway();
 
     // Check if the serial port is opened
